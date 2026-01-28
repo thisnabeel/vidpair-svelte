@@ -13,7 +13,7 @@ function getWebSocketUrl() {
 	const isProduction = !window.location.hostname.includes('localhost') && !window.location.hostname.includes('127.0.0.1');
 	
 	if (isProduction) {
-		return 'wss://your-api-url.railway.app/cable';
+		return 'wss://vidpair-api-production.up.railway.app/cable';
 	} else {
 		return 'ws://localhost:3000/cable';
 	}
