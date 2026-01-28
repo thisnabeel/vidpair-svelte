@@ -10,7 +10,7 @@ function getApiBaseUrl() {
 	
 	if (isProduction) {
 		// Update this with your production API URL
-		return 'https://your-api-url.railway.app';
+		return 'https://vidpair-api-production.up.railway.app/';
 	} else {
 		return 'http://localhost:3000';
 	}
